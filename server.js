@@ -17,7 +17,7 @@ const dotenv = require("dotenv")
 dotenv.config()
 const io = SocketIo(server,{
     cors:{
-        origin:"https://fleexy-chat-api.onrender.com",
+        origin:"https://fleexy-chat.netlify.app",
         methods:["GET","POST"]
     }
 })
